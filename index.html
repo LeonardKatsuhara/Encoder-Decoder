@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./imagens/logo.png" alt="logo">
+            <h1>Encriptador de Texto</h1>
+        </header>
+        <main>
+            <div class="caixa-area">
+                <textarea type="text" placeholder="Digite seu texto aqui!" class="caixa-texto"></textarea>
+            <div class="caixa-atencao">
+                <img class="info" src="./imagens/info.png"><p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+                <input type="button" value="Criptografar" class="encriptar" onclick="botaoEncriptar()">
+                <input type="button" value="Descriptografar" class="desencriptar" onclick="botaoDesencriptar()">
+            </div>
+            <div class="caixa-area">
+                <textarea type="text" placeholder="O texto aparecerar aqui!" class="caixa-resultado"></textarea>
+                <input type="button" value="Copiar" class="copiar-texto" onclick="copiar()">
+            </div>
+        </main>
+        <footer>
+            <p class="github"><a href="https://github.com/LeonardKatsuhara"><img src="./imagens/GitHub_Logo.png" alt="github" width="100" height="50"></a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
