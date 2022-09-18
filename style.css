@@ -1,0 +1,110 @@
+body {
+    background: whitesmoke;
+}
+
+header img {
+    margin: 30px 0 0 20px;
+}
+
+header {
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+main div {
+    text-align: center;
+    width: 100%;
+}
+
+main img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.caixa-texto {
+    width: 70%;
+    height: 250px;
+    margin: 1em 10% 0 10%;
+    border-radius: 7px;
+    border-color: black;
+    background-color: white;
+    resize: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: black;
+}
+.caixa-atencao p {
+    margin-left: 21px;
+    display: inline;
+    vertical-align: top;
+    font-size: 0.9em;
+    font-family: arial;
+    color: gray;
+    font-style: italic;
+}
+
+.info {
+    width: 16px;
+    height: 16px;
+}
+
+.encriptar {
+    border: none;
+    border-radius: 7px;
+    background: darkblue;
+    color: white;
+    width: 10em;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 1em;
+}
+
+.desencriptar {
+    border: none;
+    border-radius: 7px;
+    background: darkgray;
+    color: black;
+    width: 10em;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 1em;
+} 
+
+.caixa-resultado {
+    width: 70%;
+    height: 250px;
+    margin: 1em 10% 0 10%;
+    border-radius: 7px;
+    border-color: black;
+    background-color: white;
+    resize: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: black;
+}
+
+.copiar-texto {
+    width: 288px;
+    height: 35px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    background: darkgrey;
+    border: none;
+    border-radius: 7px;
+}
+
+.github {
+	text-align: center;
+	padding: 45px 0;
+}
+
